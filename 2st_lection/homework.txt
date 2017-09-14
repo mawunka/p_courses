@@ -1,1 +1,17 @@
-вывести таблицу умножения используя ф-ю формат
+#1
+vivesti tablicu umnojeniya ispolzuya \.format()\ i cycle \for\
+
+1  2  3
+
+2  4  6
+
+3  6  9
+
+
+#2
+input  = 1234
+output = 
+	1234
+	0123
+	0012
+	0001
