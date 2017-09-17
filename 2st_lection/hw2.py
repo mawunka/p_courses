@@ -1,8 +1,8 @@
 x = '1234'
-x = x.rjust(3, '0')
-c, z = 3,len(y)
+x = x.rjust(len(x)+3, '0')
+c, z = 3,len(x)
 
-while c>-1:
-	print(y[c:z])
+while c>=0:
+	print(x[c:z])
 	c-=1
 	z-=1
