@@ -1,0 +1,5 @@
+#1
+metodom insert() sgenerirovat' spisok i slovar'(s raznimi zna4eniyami), vi4eslit vremya za kotoroe on generitsya, sravnit' vremya 
+
+#2
+naiti zna4eniya kotorie ne sovpadayout v spiske i slovare
