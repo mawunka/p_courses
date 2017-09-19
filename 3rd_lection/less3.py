@@ -34,7 +34,7 @@ for i in s3:
 
 print(' '.join(l2).split())
 
-#CRUD C-create R-read U-update D-deleter
+#CRUD C-create R-read U-update D-delete
 
 l = [1] # create
 d = {}
@@ -45,17 +45,3 @@ d['s']  = 2 # UPDATE
 del l[0] # DELETE
 del d[s] #DELETE
 
-from time import time as t
-
-t1 = t()
-
-n = range(10**4)
-l = []
-d = {}
-
-for i in n:
-	l.append(i)
-	print(t()-t1)
-for i in n:
-	d[str(i)] = i
-	print(t()-t1)
